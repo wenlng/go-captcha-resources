@@ -229,6 +229,33 @@ func makeImage() []*bindata.Config {
 				},
 			},
 		},
+		{
+			Output:  "bindata/images/image_v2_13/image.go",
+			Package: "image_v2_13",
+			Input: []bindata.InputConfig{
+				{
+					Path: "sourcedata/images/image-v2-13",
+				},
+			},
+		},
+		{
+			Output:  "bindata/images/image_v2_14/image.go",
+			Package: "image_v2_14",
+			Input: []bindata.InputConfig{
+				{
+					Path: "sourcedata/images/image-v2-14",
+				},
+			},
+		},
+		{
+			Output:  "bindata/images/image_v2_15/image.go",
+			Package: "image_v2_15",
+			Input: []bindata.InputConfig{
+				{
+					Path: "sourcedata/images/image-v2-15",
+				},
+			},
+		},
 	}
 }
 
