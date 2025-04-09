@@ -155,6 +155,31 @@ func (sf *ResourcesFile) GetImagesV2() ([]image.Image, error) {
 		return images, err
 	}
 	images[11] = img
+
+	img, err = helper.LoadJpeg("resources/images/image-v2-13/image.jpg")
+	if err != nil {
+		return images, err
+	}
+	images[12] = img
+
+	img, err = helper.LoadJpeg("resources/images/image-v2-14/image.jpg")
+	if err != nil {
+		return images, err
+	}
+	images[13] = img
+
+	img, err = helper.LoadJpeg("resources/images/image-v2-15/image.jpg")
+	if err != nil {
+		return images, err
+	}
+	images[14] = img
+
+	img, err = helper.LoadJpeg("resources/images/image-v2-16/image.jpg")
+	if err != nil {
+		return images, err
+	}
+	images[15] = img
+
 	return images, nil
 }
 
